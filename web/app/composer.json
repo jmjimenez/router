@@ -1,0 +1,26 @@
+{
+  "require": {
+    "slim/slim": "4.0.0",
+    "slim/psr7": "^0.6.0",
+    "mlocati/ip-lib": "^1.9",
+    "ninsuo/php-shared-memory": "^2.0"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "^7.0",
+    "roave/better-reflection": "dev-master",
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\Router\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AppTest\\Router\\": "test/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
